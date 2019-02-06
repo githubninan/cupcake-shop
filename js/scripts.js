@@ -1,17 +1,23 @@
-
-/*  $("h1").click(function() {
-    alert("This is header.");
-  });
-  $("p").click(function(){
-    alert ("This is a paragraph");
-  });
-  $ ("img").click(function(){
-    alert("This is an image :)");
-
-});*/
 $(document).ready(function () {
   $(".clickable").click(function() {
     $("#cupcake-showing").toggle();
     $("#cupcake-hidden").toggle();
   });
+
+  $(".clickme").click(function() {
+    $("#pastries-fadein").fadeIn();
+    $("#pastries-fadein").fadeOut();
+  });
+
+  $(".clickme1").click(function() {
+    $("#pastries-showing").fadeToggle();
+    $("#pastries-hidden").fadeToggle();
+  });
+
+$("button#black-background").click (function() {
+  $ ("body").addClass("black-background");
+});
+$("button#white-background").click (function() {
+  $ ("body").addClass("white-background");
+});
 });

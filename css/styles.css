@@ -1,9 +1,13 @@
-p.flashy {
-  font-size: 15px;
-  font-style: italic;
-  color: red;
-  font-family:cursive;
+.black-background {
+  background-color: black;
+  color: white;
 }
+.white-background {
+  background-color: white;
+  color: black;
+}
+
+
 
 .best {
   font-weight: bold;
@@ -20,4 +24,25 @@ p.flashy {
 
 .clickable:hover {
   text-decoration: underline;
+}
+
+#pastries-showing {
+  display: none;
+}
+.clickme {
+  cursor: pointer; color: #0088cc;
+}
+
+.clickme:hover {
+  text-decoration: underline;
+}
+.clickme1 {
+  cursor: pointer; color: #0088cc;
+}
+
+.clickme1:hover {
+  text-decoration: underline;
+}
+#pastries-fadein {
+  display: none;
 }
